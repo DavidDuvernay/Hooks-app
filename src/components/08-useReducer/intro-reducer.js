@@ -4,7 +4,6 @@ const initialState = [{
     done: false,
 }];
 
-
 const todoReducer = (state = initialState, action) => {
 
     if(action?.type === 'agregar'){
